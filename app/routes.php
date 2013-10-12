@@ -17,7 +17,7 @@ Route::get('/{orderby}', 'GalleryController@showPics')
 
 Route::get('/', function()
 {	
-	return View::make('home');
+	return  View::make('home');
 });
 
 Route::get('ok_send', function()
